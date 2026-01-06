@@ -1,0 +1,542 @@
+2025-11-10 23:37:57 +00:00: ✅ YooKassa credentials configured
+2025-11-10 23:37:57 +00:00: ✅ Russian Post API configured
+2025-11-10 23:37:57 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-10 23:37:57 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-10 23:37:57 +00:00: Database initialized
+2025-11-10 23:37:58 +00:00: ✅ YooKassa credentials configured
+2025-11-10 23:37:58 +00:00: ✅ Russian Post API configured
+2025-11-10 23:37:58 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-10 23:37:58 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-10 23:37:58 +00:00: Database initialized
+2025-11-11 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-11 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-11 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-11 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-11 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-11 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-11 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-11 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-11 03:00:01 +00:00: Database initialized
+2025-11-11 03:00:01 +00:00: Database initialized
+2025-11-11 12:07:42 +00:00: ✅ YooKassa credentials configured
+2025-11-11 12:07:42 +00:00: ✅ YooKassa credentials configured
+2025-11-11 12:07:42 +00:00: ✅ Russian Post API configured
+2025-11-11 12:07:42 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-11 12:07:42 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-11 12:07:42 +00:00: ✅ Russian Post API configured
+2025-11-11 12:07:42 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-11 12:07:42 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-11 12:07:42 +00:00: Database initialized
+2025-11-11 12:07:42 +00:00: Database initialized
+2025-11-12 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-12 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-12 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-12 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-12 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-12 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-12 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-12 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-12 03:00:01 +00:00: Database initialized
+2025-11-12 03:00:01 +00:00: Database initialized
+2025-11-12 21:56:16 +00:00: [API] Запрос карточки: софья-соколова-1762798455550
+2025-11-12 21:56:16 +00:00: [API] Всего файлов в data/cards: 26
+2025-11-12 21:56:16 +00:00: [API] Файлы: [
+  '1-1761646482819.json',
+  '1-1761833756554.json',
+  '1-1761874454328.json',
+  '1-1761874478169.json',
+  '1-1761875623552.json'
+]
+2025-11-12 21:56:16 +00:00: [API] Транслит slug: sofьya-sokolova-1762798455550
+2025-11-13 03:00:00 +00:00: ✅ YooKassa credentials configured
+2025-11-13 03:00:00 +00:00: ✅ YooKassa credentials configured
+2025-11-13 03:00:00 +00:00: ✅ Russian Post API configured
+2025-11-13 03:00:00 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-13 03:00:00 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-13 03:00:00 +00:00: ✅ Russian Post API configured
+2025-11-13 03:00:00 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-13 03:00:00 +00:00: Database initialized
+2025-11-13 03:00:00 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-13 03:00:00 +00:00: Database initialized
+2025-11-14 00:08:46 +00:00: [API] Запрос карточки: demo-1763078901076
+2025-11-14 00:08:46 +00:00: [API] Всего файлов в data/cards: 26
+2025-11-14 00:08:46 +00:00: [API] Файлы: [
+  '1-1761646482819.json',
+  '1-1761833756554.json',
+  '1-1761874454328.json',
+  '1-1761874478169.json',
+  '1-1761875623552.json'
+]
+2025-11-14 00:08:46 +00:00: [API] Транслит slug: demo-1763078901076
+2025-11-14 03:00:00 +00:00: ✅ YooKassa credentials configured
+2025-11-14 03:00:00 +00:00: ✅ YooKassa credentials configured
+2025-11-14 03:00:00 +00:00: ✅ Russian Post API configured
+2025-11-14 03:00:00 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-14 03:00:00 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-14 03:00:00 +00:00: ✅ Russian Post API configured
+2025-11-14 03:00:00 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-14 03:00:00 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-14 03:00:00 +00:00: Database initialized
+2025-11-14 03:00:00 +00:00: Database initialized
+2025-11-14 05:52:28 +00:00: [API] Запрос карточки: софья-соколова-1762798455550
+2025-11-14 05:52:28 +00:00: [API] Всего файлов в data/cards: 26
+2025-11-14 05:52:28 +00:00: [API] Файлы: [
+  '1-1761646482819.json',
+  '1-1761833756554.json',
+  '1-1761874454328.json',
+  '1-1761874478169.json',
+  '1-1761875623552.json'
+]
+2025-11-14 05:52:28 +00:00: [API] Транслит slug: sofьya-sokolova-1762798455550
+2025-11-14 11:17:53 +00:00: ✅ YooKassa credentials configured
+2025-11-14 11:17:53 +00:00: ✅ YooKassa credentials configured
+2025-11-14 11:17:53 +00:00: ✅ Russian Post API configured
+2025-11-14 11:17:53 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-14 11:17:53 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-14 11:17:53 +00:00: ✅ Russian Post API configured
+2025-11-14 11:17:53 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-14 11:17:53 +00:00: Database initialized
+2025-11-14 11:17:53 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-14 11:17:54 +00:00: Database initialized
+2025-11-14 18:41:13 +00:00: [API] Запрос карточки: sergey-petrovich-1761647460847
+2025-11-14 18:41:13 +00:00: [API] Всего файлов в data/cards: 26
+2025-11-14 18:41:13 +00:00: [API] Файлы: [
+  '1-1761646482819.json',
+  '1-1761833756554.json',
+  '1-1761874454328.json',
+  '1-1761874478169.json',
+  '1-1761875623552.json'
+]
+2025-11-14 18:41:13 +00:00: [API] ✅ Найден файл: sergey-petrovich-1761647460847.json
+2025-11-14 22:26:36 +00:00: ✅ YooKassa credentials configured
+2025-11-14 22:26:36 +00:00: ✅ Russian Post API configured
+2025-11-14 22:26:36 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-14 22:26:36 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-14 22:26:36 +00:00: Database initialized
+2025-11-14 22:26:36 +00:00: ✅ YooKassa credentials configured
+2025-11-14 22:26:36 +00:00: ✅ Russian Post API configured
+2025-11-14 22:26:36 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-14 22:26:36 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-14 22:26:36 +00:00: Database initialized
+2025-11-15 03:00:00 +00:00: ✅ YooKassa credentials configured
+2025-11-15 03:00:00 +00:00: ✅ YooKassa credentials configured
+2025-11-15 03:00:00 +00:00: ✅ Russian Post API configured
+2025-11-15 03:00:00 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-15 03:00:00 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-15 03:00:00 +00:00: ✅ Russian Post API configured
+2025-11-15 03:00:00 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-15 03:00:00 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-15 03:00:00 +00:00: Database initialized
+2025-11-15 03:00:00 +00:00: Database initialized
+2025-11-15 21:54:33 +00:00: [ADMIN] Запрошено 1 заказов
+2025-11-15 21:54:33 +00:00: [ADMIN] Статистика: 1 заказов, 0 оплачено
+2025-11-15 22:08:07 +00:00: [DELIVERY] Подсказки для: "Иван"
+2025-11-15 22:08:07 +00:00: [DELIVERY] Подсказки для: "Ива"
+2025-11-15 22:08:07 +00:00: [DELIVERY] Подсказки для: "Ивани"
+2025-11-15 22:08:07 +00:00: [DELIVERY] Найдено подсказок: 10
+2025-11-15 22:08:07 +00:00: [DELIVERY] Найдено подсказок: 10
+2025-11-15 22:08:07 +00:00: [DELIVERY] Найдено подсказок: 10
+2025-11-15 22:08:07 +00:00: [DELIVERY] Подсказки для: "Иванин"
+2025-11-15 22:08:07 +00:00: [DELIVERY] Найдено подсказок: 4
+2025-11-15 22:08:08 +00:00: [DELIVERY] Подсказки для: "Иванино"
+2025-11-15 22:08:08 +00:00: [DELIVERY] Найдено подсказок: 1
+2025-11-15 22:08:11 +00:00: [DELIVERY] Подсказки для: "ИваниноЫ"
+2025-11-15 22:08:11 +00:00: [DELIVERY] Найдено подсказок: 1
+2025-11-15 22:08:51 +00:00: [DELIVERY] Поиск отделений по адресу: Иванино
+2025-11-15 22:08:51 +00:00: [DaData] Получено результатов: 1
+2025-11-15 22:08:51 +00:00: [DaData] Форматирование 1 отделений
+2025-11-15 22:08:51 +00:00: [DELIVERY] ✅ Найдено по адресу: 1
+2025-11-16 03:00:00 +00:00: ✅ YooKassa credentials configured
+2025-11-16 03:00:00 +00:00: ✅ YooKassa credentials configured
+2025-11-16 03:00:00 +00:00: ✅ Russian Post API configured
+2025-11-16 03:00:00 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-16 03:00:00 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-16 03:00:00 +00:00: Database initialized
+2025-11-16 03:00:00 +00:00: ✅ Russian Post API configured
+2025-11-16 03:00:00 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-16 03:00:00 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-16 03:00:00 +00:00: Database initialized
+2025-11-16 15:58:24 +00:00: [API] Запрос карточки: sergey-petrovich-1761647460847
+2025-11-16 15:58:24 +00:00: [API] Всего файлов в data/cards: 26
+2025-11-16 15:58:24 +00:00: [API] Файлы: [
+  '1-1761646482819.json',
+  '1-1761833756554.json',
+  '1-1761874454328.json',
+  '1-1761874478169.json',
+  '1-1761875623552.json'
+]
+2025-11-16 15:58:24 +00:00: [API] ✅ Найден файл: sergey-petrovich-1761647460847.json
+2025-11-16 16:15:20 +00:00: [API] Запрос карточки: sergey-petrovich-1761647460847
+2025-11-16 16:15:20 +00:00: [API] Всего файлов в data/cards: 26
+2025-11-16 16:15:20 +00:00: [API] Файлы: [
+  '1-1761646482819.json',
+  '1-1761833756554.json',
+  '1-1761874454328.json',
+  '1-1761874478169.json',
+  '1-1761875623552.json'
+]
+2025-11-16 16:15:20 +00:00: [API] ✅ Найден файл: sergey-petrovich-1761647460847.json
+2025-11-17 03:00:00 +00:00: ✅ YooKassa credentials configured
+2025-11-17 03:00:00 +00:00: ✅ YooKassa credentials configured
+2025-11-17 03:00:00 +00:00: ✅ Russian Post API configured
+2025-11-17 03:00:00 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-17 03:00:00 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-17 03:00:00 +00:00: ✅ Russian Post API configured
+2025-11-17 03:00:00 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-17 03:00:00 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-17 03:00:00 +00:00: Database initialized
+2025-11-17 03:00:00 +00:00: Database initialized
+2025-11-17 08:21:44 +00:00: [API] Запрос карточки: sergey-petrovich-1761647460847
+2025-11-17 08:21:44 +00:00: [API] Всего файлов в data/cards: 26
+2025-11-17 08:21:44 +00:00: [API] Файлы: [
+  '1-1761646482819.json',
+  '1-1761833756554.json',
+  '1-1761874454328.json',
+  '1-1761874478169.json',
+  '1-1761875623552.json'
+]
+2025-11-17 08:21:44 +00:00: [API] ✅ Найден файл: sergey-petrovich-1761647460847.json
+2025-11-18 03:00:00 +00:00: ✅ YooKassa credentials configured
+2025-11-18 03:00:00 +00:00: ✅ YooKassa credentials configured
+2025-11-18 03:00:00 +00:00: ✅ Russian Post API configured
+2025-11-18 03:00:00 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-18 03:00:00 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-18 03:00:00 +00:00: ✅ Russian Post API configured
+2025-11-18 03:00:00 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-18 03:00:00 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-18 03:00:00 +00:00: Database initialized
+2025-11-18 03:00:00 +00:00: Database initialized
+2025-11-18 11:17:42 +00:00: ✅ YooKassa credentials configured
+2025-11-18 11:17:42 +00:00: ✅ YooKassa credentials configured
+2025-11-18 11:17:42 +00:00: ✅ Russian Post API configured
+2025-11-18 11:17:42 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-18 11:17:43 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-18 11:17:42 +00:00: ✅ Russian Post API configured
+2025-11-18 11:17:42 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-18 11:17:43 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-18 11:17:43 +00:00: Database initialized
+2025-11-18 11:17:43 +00:00: Database initialized
+2025-11-19 03:00:02 +00:00: ✅ YooKassa credentials configured
+2025-11-19 03:00:02 +00:00: ✅ YooKassa credentials configured
+2025-11-19 03:00:02 +00:00: ✅ Russian Post API configured
+2025-11-19 03:00:02 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-19 03:00:02 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-19 03:00:02 +00:00: ✅ Russian Post API configured
+2025-11-19 03:00:02 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-19 03:00:02 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-19 03:00:02 +00:00: Database initialized
+2025-11-19 03:00:02 +00:00: Database initialized
+2025-11-19 07:41:33 +00:00: ✅ YooKassa credentials configured
+2025-11-19 07:41:33 +00:00: ✅ YooKassa credentials configured
+2025-11-19 07:41:33 +00:00: ✅ Russian Post API configured
+2025-11-19 07:41:33 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-19 07:41:33 +00:00: ✅ Russian Post API configured
+2025-11-19 07:41:33 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-19 07:41:34 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-19 07:41:34 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-19 07:41:34 +00:00: Database initialized
+2025-11-19 07:41:34 +00:00: Database initialized
+2025-11-20 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-20 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-20 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-20 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-20 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-20 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-20 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-20 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-20 03:00:01 +00:00: Database initialized
+2025-11-20 03:00:01 +00:00: Database initialized
+2025-11-20 16:19:42 +00:00: [DELIVERY] Подсказки для: "Рос"
+2025-11-20 16:19:42 +00:00: [DELIVERY] Подсказки для: "Рост"
+2025-11-20 16:19:42 +00:00: [DELIVERY] Подсказки для: "Росто"
+2025-11-20 16:19:42 +00:00: [DELIVERY] Найдено подсказок: 10
+2025-11-20 16:19:42 +00:00: [DELIVERY] Найдено подсказок: 9
+2025-11-20 16:19:42 +00:00: [DELIVERY] Найдено подсказок: 10
+2025-11-20 16:19:42 +00:00: [DELIVERY] Подсказки для: "Ростов"
+2025-11-20 16:19:42 +00:00: [DELIVERY] Найдено подсказок: 10
+2025-11-20 16:19:49 +00:00: [DELIVERY] Поиск отделений по адресу: Ростовская
+2025-11-20 16:19:49 +00:00: [DaData] Получено результатов: 20
+2025-11-20 16:19:49 +00:00: [DaData] Форматирование 20 отделений
+2025-11-20 16:19:49 +00:00: [DELIVERY] ✅ Найдено по адресу: 20
+2025-11-20 16:20:20 +00:00: [DELIVERY] Подсказки для: "Ива"
+2025-11-20 16:20:20 +00:00: [DELIVERY] Подсказки для: "Иван"
+2025-11-20 16:20:20 +00:00: [DELIVERY] Найдено подсказок: 10
+2025-11-20 16:20:20 +00:00: [DELIVERY] Найдено подсказок: 10
+2025-11-20 16:20:21 +00:00: [DELIVERY] Подсказки для: "Ивани"
+2025-11-20 16:20:21 +00:00: [DELIVERY] Найдено подсказок: 10
+2025-11-20 16:20:21 +00:00: [DELIVERY] Подсказки для: "Иванин"
+2025-11-20 16:20:21 +00:00: [DELIVERY] Найдено подсказок: 4
+2025-11-20 16:20:21 +00:00: [DELIVERY] Подсказки для: "Иванино"
+2025-11-20 16:20:21 +00:00: [DELIVERY] Найдено подсказок: 1
+2025-11-20 16:20:26 +00:00: [DELIVERY] Поиск отделений по адресу: Иванино
+2025-11-20 16:20:26 +00:00: [DaData] Получено результатов: 1
+2025-11-20 16:20:26 +00:00: [DaData] Форматирование 1 отделений
+2025-11-20 16:20:26 +00:00: [DELIVERY] ✅ Найдено по адресу: 1
+2025-11-21 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-21 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-21 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-21 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-21 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-21 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-21 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-21 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-21 03:00:01 +00:00: Database initialized
+2025-11-21 03:00:01 +00:00: Database initialized
+2025-11-21 07:30:41 +00:00: ✅ YooKassa credentials configured
+2025-11-21 07:30:41 +00:00: ✅ YooKassa credentials configured
+2025-11-21 07:30:41 +00:00: ✅ Russian Post API configured
+2025-11-21 07:30:41 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-21 07:30:41 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-21 07:30:41 +00:00: ✅ Russian Post API configured
+2025-11-21 07:30:41 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-21 07:30:41 +00:00: Database initialized
+2025-11-21 07:30:41 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-21 07:30:41 +00:00: Database initialized
+2025-11-21 21:52:01 +00:00: ✅ YooKassa credentials configured
+2025-11-21 21:52:01 +00:00: ✅ Russian Post API configured
+2025-11-21 21:52:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-21 21:52:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-21 21:52:01 +00:00: ✅ YooKassa credentials configured
+2025-11-21 21:52:01 +00:00: ✅ Russian Post API configured
+2025-11-21 21:52:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-21 21:52:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-22 03:00:02 +00:00: ✅ YooKassa credentials configured
+2025-11-22 03:00:02 +00:00: ✅ YooKassa credentials configured
+2025-11-22 03:00:02 +00:00: ✅ Russian Post API configured
+2025-11-22 03:00:02 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-22 03:00:02 +00:00: ✅ Russian Post API configured
+2025-11-22 03:00:02 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-22 03:00:02 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-22 03:00:02 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-22 03:00:02 +00:00: Database initialized
+2025-11-22 03:00:02 +00:00: Database initialized
+2025-11-23 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-23 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-23 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-23 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-23 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-23 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-23 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-23 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-23 03:00:01 +00:00: Database initialized
+2025-11-23 03:00:01 +00:00: Database initialized
+2025-11-24 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-24 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-24 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-24 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-24 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-24 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-24 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-24 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-24 03:00:01 +00:00: Database initialized
+2025-11-24 03:00:01 +00:00: Database initialized
+2025-11-24 09:59:52 +00:00: ✅ YooKassa credentials configured
+2025-11-24 09:59:52 +00:00: ✅ Russian Post API configured
+2025-11-24 09:59:52 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-24 09:59:53 +00:00: ✅ YooKassa credentials configured
+2025-11-24 09:59:53 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-24 09:59:53 +00:00: Database initialized
+2025-11-24 09:59:53 +00:00: ✅ Russian Post API configured
+2025-11-24 09:59:53 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-24 09:59:53 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-24 09:59:53 +00:00: Database initialized
+2025-11-25 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-25 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-25 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-25 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-25 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-25 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-25 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-25 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-25 03:00:02 +00:00: Database initialized
+2025-11-25 03:00:02 +00:00: Database initialized
+2025-11-25 09:38:07 +00:00: ✅ YooKassa credentials configured
+2025-11-25 09:38:07 +00:00: ✅ Russian Post API configured
+2025-11-25 09:38:07 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-25 09:38:08 +00:00: ✅ YooKassa credentials configured
+2025-11-25 09:38:08 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-25 09:38:08 +00:00: Database initialized
+2025-11-25 09:38:08 +00:00: ✅ Russian Post API configured
+2025-11-25 09:38:08 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-25 09:38:08 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-25 09:38:08 +00:00: Database initialized
+2025-11-26 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-26 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-26 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-26 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-26 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-26 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-26 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-26 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-26 03:00:01 +00:00: Database initialized
+2025-11-26 03:00:01 +00:00: Database initialized
+2025-11-26 07:25:25 +00:00: ✅ YooKassa credentials configured
+2025-11-26 07:25:25 +00:00: ✅ Russian Post API configured
+2025-11-26 07:25:25 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-26 07:25:26 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-26 07:25:26 +00:00: Database initialized
+2025-11-26 07:25:26 +00:00: ✅ YooKassa credentials configured
+2025-11-26 07:25:26 +00:00: ✅ Russian Post API configured
+2025-11-26 07:25:26 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-26 07:25:26 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-26 07:25:26 +00:00: Database initialized
+2025-11-27 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-27 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-27 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-27 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-27 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-27 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-27 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-27 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-27 03:00:01 +00:00: Database initialized
+2025-11-27 03:00:01 +00:00: Database initialized
+2025-11-28 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-28 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-28 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-28 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-28 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-28 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-28 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-28 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-28 03:00:01 +00:00: Database initialized
+2025-11-28 03:00:01 +00:00: Database initialized
+2025-11-29 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-29 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-29 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-29 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-29 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-29 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-29 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-29 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-29 03:00:01 +00:00: Database initialized
+2025-11-29 03:00:01 +00:00: Database initialized
+2025-11-30 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-30 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-11-30 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-30 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-30 03:00:01 +00:00: ✅ Russian Post API configured
+2025-11-30 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-11-30 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-30 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-11-30 03:00:01 +00:00: Database initialized
+2025-11-30 03:00:01 +00:00: Database initialized
+2025-12-01 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-12-01 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-12-01 03:00:01 +00:00: ✅ Russian Post API configured
+2025-12-01 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-01 03:00:01 +00:00: ✅ Russian Post API configured
+2025-12-01 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-01 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-01 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-01 03:00:01 +00:00: Database initialized
+2025-12-01 03:00:01 +00:00: Database initialized
+2025-12-01 10:23:22 +00:00: ✅ YooKassa credentials configured
+2025-12-01 10:23:22 +00:00: ✅ Russian Post API configured
+2025-12-01 10:23:22 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-01 10:23:23 +00:00: ✅ YooKassa credentials configured
+2025-12-01 10:23:23 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-01 10:23:23 +00:00: Database initialized
+2025-12-01 10:23:23 +00:00: ✅ Russian Post API configured
+2025-12-01 10:23:23 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-01 10:23:23 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-01 10:23:23 +00:00: Database initialized
+2025-12-02 03:00:03 +00:00: ✅ YooKassa credentials configured
+2025-12-02 03:00:03 +00:00: ✅ YooKassa credentials configured
+2025-12-02 03:00:03 +00:00: ✅ Russian Post API configured
+2025-12-02 03:00:03 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-02 03:00:03 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-02 03:00:03 +00:00: ✅ Russian Post API configured
+2025-12-02 03:00:03 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-02 03:00:03 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-02 03:00:03 +00:00: Database initialized
+2025-12-02 03:00:03 +00:00: Database initialized
+2025-12-03 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-12-03 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-12-03 03:00:01 +00:00: ✅ Russian Post API configured
+2025-12-03 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-03 03:00:01 +00:00: ✅ Russian Post API configured
+2025-12-03 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-03 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-03 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-03 03:00:01 +00:00: Database initialized
+2025-12-03 03:00:01 +00:00: Database initialized
+2025-12-04 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-12-04 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-12-04 03:00:01 +00:00: ✅ Russian Post API configured
+2025-12-04 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-04 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-04 03:00:01 +00:00: ✅ Russian Post API configured
+2025-12-04 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-04 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-04 03:00:01 +00:00: Database initialized
+2025-12-04 03:00:01 +00:00: Database initialized
+2025-12-05 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-12-05 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-12-05 03:00:01 +00:00: ✅ Russian Post API configured
+2025-12-05 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-05 03:00:01 +00:00: ✅ Russian Post API configured
+2025-12-05 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-05 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-05 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-05 03:00:01 +00:00: Database initialized
+2025-12-05 03:00:01 +00:00: Database initialized
+2025-12-05 15:45:15 +00:00: ✅ YooKassa credentials configured
+2025-12-05 15:45:15 +00:00: ✅ Russian Post API configured
+2025-12-05 15:45:15 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-05 15:45:16 +00:00: ✅ YooKassa credentials configured
+2025-12-05 15:45:16 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-05 15:45:16 +00:00: Database initialized
+2025-12-05 15:45:16 +00:00: ✅ Russian Post API configured
+2025-12-05 15:45:16 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-05 15:45:16 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-05 15:45:16 +00:00: Database initialized
+2025-12-06 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-12-06 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-12-06 03:00:01 +00:00: ✅ Russian Post API configured
+2025-12-06 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-06 03:00:01 +00:00: ✅ Russian Post API configured
+2025-12-06 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-06 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-06 03:00:02 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-06 03:00:02 +00:00: Database initialized
+2025-12-06 03:00:02 +00:00: Database initialized
+2025-12-07 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-12-07 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-12-07 03:00:01 +00:00: ✅ Russian Post API configured
+2025-12-07 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-07 03:00:01 +00:00: ✅ Russian Post API configured
+2025-12-07 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-07 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-07 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-07 03:00:01 +00:00: Database initialized
+2025-12-07 03:00:01 +00:00: Database initialized
+2025-12-08 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-12-08 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-12-08 03:00:01 +00:00: ✅ Russian Post API configured
+2025-12-08 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-08 03:00:01 +00:00: ✅ Russian Post API configured
+2025-12-08 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-08 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-08 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-08 03:00:01 +00:00: Database initialized
+2025-12-08 03:00:01 +00:00: Database initialized
+2025-12-09 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-12-09 03:00:01 +00:00: ✅ YooKassa credentials configured
+2025-12-09 03:00:01 +00:00: ✅ Russian Post API configured
+2025-12-09 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-09 03:00:01 +00:00: ✅ Russian Post API configured
+2025-12-09 03:00:01 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-09 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-09 03:00:01 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-09 03:00:01 +00:00: Database initialized
+2025-12-09 03:00:01 +00:00: Database initialized
+2025-12-10 01:22:32 +00:00: ✅ YooKassa credentials configured
+2025-12-10 01:22:32 +00:00: ✅ Russian Post API configured
+2025-12-10 01:22:32 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-10 01:22:32 +00:00: ✅ YooKassa credentials configured
+2025-12-10 01:22:32 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-10 01:22:32 +00:00: Database initialized
+2025-12-10 01:22:32 +00:00: ✅ Russian Post API configured
+2025-12-10 01:22:32 +00:00: ✅ DaData API configured - REAL post offices enabled
+2025-12-10 01:22:33 +00:00: Server listening on http://127.0.0.1:10010
+2025-12-10 01:22:33 +00:00: Database initialized

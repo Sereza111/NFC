@@ -1,0 +1,21 @@
+2025-11-12 21:56:16 +00:00: [API] ❌ Card not found for slug: софья-соколова-1762798455550
+2025-11-14 00:08:46 +00:00: [API] ❌ Card not found for slug: demo-1763078901076
+2025-11-14 05:52:28 +00:00: [API] ❌ Card not found for slug: софья-соколова-1762798455550
+2025-11-21 21:52:11 +00:00: Database init error: Error: connect ETIMEDOUT
+    at PoolConnection._handleTimeoutError (/var/www/www-root/data/www/nfc-vl.ru/node_modules/mysql2/lib/base/connection.js:200:17)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+2025-11-21 21:52:11 +00:00: Database init error: Error: connect ETIMEDOUT
+    at PoolConnection._handleTimeoutError (/var/www/www-root/data/www/nfc-vl.ru/node_modules/mysql2/lib/base/connection.js:200:17)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}

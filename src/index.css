@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neon-green: #00FF88;
+  --dark-green: #00CC66;
+  --light-green: #88FFD0;
+  --pure-white: #FFFFFF;
+  --pure-black: #000000;
+  --dark-bg: #0a0a0a;
+  --darker-bg: #050505;
+  --light-text: #e5e5e5;
+  --gray-dark: #1a1a1a;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-color: var(--dark-bg);
+}
+
+/* Mobile improvements */
+.container { max-width: 1200px; }
+@media (max-width: 640px) {
+  .text-balance { text-wrap: balance; }
+}
+
+/* Editor-specific VHS/Snow effects (scoped to avoid global impact) */
+.editor-vhs-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+}
+
+.editor-vhs-scanlines {
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0,0,0,0) 0px,
+    rgba(0,0,0,0) 2px,
+    rgba(0, 245, 255, 0.035) 2px,
+    rgba(0, 245, 255, 0.035) 4px
+  );
+  animation: editor-scanline-move 0.12s linear infinite;
+  z-index: 5;
+}
+
+@keyframes editor-scanline-move {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(4px); }
+}
+
+.editor-pixel-snow {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 6;
+}
+
+.editor-snowflake {
+  position: absolute;
+  color: #00F5FF;
+  font-family: monospace;
+  opacity: 0.65;
+  user-select: none;
+  pointer-events: none;
+  animation: editor-fall linear infinite;
+}
+
+@keyframes editor-fall {
+  0% { transform: translateY(-100px) translateX(0); }
+  100% { transform: translateY(100vh) translateX(-40px); }
+}
+
+/* Card effects used inside the editor modal */
+.editor-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.editor-card-holographic::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    45deg,
+    rgba(255,255,255,0) 30%,
+    rgba(255,255,255,0.12) 50%,
+    rgba(255,255,255,0) 70%
+  );
+  animation: editor-holo-shine 3s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes editor-holo-shine {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.editor-glitch {
+  animation: editor-glitch-kf 0.3s infinite;
+}
+
+@keyframes editor-glitch-kf {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0, 0); }
+}
+
+.editor-pulse {
+  animation: editor-pulse-kf 2s infinite;
+}
+
+@keyframes editor-pulse-kf {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+

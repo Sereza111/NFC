@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Демо новых компонентов - NFC-VL.RU</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #000000, #1a1a1a, #0a3d2a);
+            color: white;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 3rem;
+            background: linear-gradient(to right, #00FF88, #88FFD0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .nav {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .nav-button {
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #00FF88, #00CC66);
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            color: black;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+        }
+        
+        .nav-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 40px rgba(0, 255, 136, 0.6);
+        }
+        
+        .section {
+            background: rgba(0, 0, 0, 0.5);
+            border: 2px solid rgba(0, 255, 136, 0.3);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .feature {
+            margin-bottom: 30px;
+        }
+        
+        .feature h2 {
+            color: #00FF88;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+        
+        .feature p {
+            color: #e5e5e5;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .demo-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background: rgba(0, 255, 136, 0.1);
+            border: 1px solid #00FF88;
+            border-radius: 8px;
+            color: #00FF88;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .demo-link:hover {
+            background: rgba(0, 255, 136, 0.2);
+            transform: translateX(5px);
+        }
+        
+        .checklist {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .checklist li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .checklist li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #00FF88;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .color-palette {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .color-box {
+            flex: 1;
+            min-width: 150px;
+            height: 100px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #888;
+        }
+        
+        .footer strong {
+            color: #00FF88;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Обновления NFC-VL.RU</h1>
+        
+        <div class="nav">
+            <button class="nav-button" onclick="window.location.href='/'">Главная</button>
+            <button class="nav-button" onclick="alert('Откройте /nfc-writer для конструктора NFC')">NFC Writer</button>
+            <button class="nav-button" onclick="alert('Откройте /card/demo для цифровой карточки')">Digital Card</button>
+        </div>
+        
+        <div class="section">
+            <div class="feature">
+                <h2>✅ Все задачи выполнены!</h2>
+                <ul class="checklist">
+                    <li>Создана новая цветовая схема (зелёный, белый, чёрный)</li>
+                    <li>Улучшен дизайн всех кнопок</li>
+                    <li>Оптимизированы 3D модели - сайт больше не вылетает</li>
+                    <li>Исправлен таймер с фиксированной датой</li>
+                    <li>Benefits стал интерактивным и красивым</li>
+                    <li>Добавлена растягивающаяся кнопка для расширенного конструктора</li>
+                    <li>Расширенный конструктор переработан - пошаговый с 3D просмотром</li>
+                    <li>Создан отдельный NFC конструктор для записи меток NTAG213</li>
+                    <li>Создана цифровая карточка с анимацией логотипа ARC</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="feature">
+                <h2>🎨 Новая цветовая палитра</h2>
+                <p>Уникальная палитра на основе неоновых зелёных оттенков:</p>
+                <div class="color-palette">
+                    <div class="color-box" style="background: #00FF88; color: black;">
+                        #00FF88<br>Неоновый зелёный
+                    </div>
+                    <div class="color-box" style="background: #00CC66; color: white;">
+                        #00CC66<br>Тёмно-зелёный
+                    </div>
+                    <div class="color-box" style="background: #88FFD0; color: black;">
+                        #88FFD0<br>Светло-зелёный
+                    </div>
+                    <div class="color-box" style="background: #000000; color: #00FF88; border: 2px solid #00FF88;">
+                        #000000<br>Чёрный
+                    </div>
+                    <div class="color-box" style="background: #FFFFFF; color: black;">
+                        #FFFFFF<br>Белый
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="feature">
+                <h2>🚀 Ключевые улучшения</h2>
+                
+                <h3 style="color: #88FFD0; margin-top: 20px;">1. Оптимизация 3D моделей</h3>
+                <p>• Убраны тяжёлые эффекты (MeshReflectorMaterial, Environment)</p>
+                <p>• Упрощены материалы для лучшей производительности</p>
+                <p>• Сайт больше не вылетает при длительном использовании</p>
+                
+                <h3 style="color: #88FFD0; margin-top: 20px;">2. Расширенный конструктор</h3>
+                <p>• Пошаговый интерфейс (4 шага)</p>
+                <p>• 3D превью в реальном времени</p>
+                <p>• Готовые пресеты для быстрого выбора</p>
+                <p>• Плавные анимации переходов</p>
+                
+                <h3 style="color: #88FFD0; margin-top: 20px;">3. NFC Writer</h3>
+                <p>• Генерация конфигурации для NTAG213</p>
+                <p>• Экспорт в JSON формат</p>
+                <p>• Информация о чипе и инструкции</p>
+                <p>• Пошаговый процесс создания</p>
+                
+                <h3 style="color: #88FFD0; margin-top: 20px;">4. Цифровая карточка</h3>
+                <p>• Анимация логотипа ARC при загрузке</p>
+                <p>• Эффект рисования логотипа</p>
+                <p>• 3D анимация появления карточки</p>
+                <p>• Интерактивные вкладки и кнопки</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="feature">
+                <h2>📦 Новые компоненты</h2>
+                <p><strong>NFCWriter.jsx</strong> - Конструктор для записи NFC меток</p>
+                <a href="#" class="demo-link">→ Открыть NFCWriter</a>
+                <br><br>
+                <p><strong>DigitalCard.jsx</strong> - Цифровая визитка с анимацией</p>
+                <a href="#" class="demo-link">→ Открыть DigitalCard</a>
+                <br><br>
+                <p><strong>CardEditorModal.jsx</strong> - Переработанный редактор (пошаговый)</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="feature">
+                <h2>📝 Инструкция по использованию</h2>
+                <p><strong>Для записи NFC метки:</strong></p>
+                <ol style="padding-left: 20px; line-height: 2;">
+                    <li>Откройте NFCWriter</li>
+                    <li>Заполните данные клиента</li>
+                    <li>Настройте URL для метки</li>
+                    <li>Скачайте JSON конфигурацию</li>
+                    <li>Используйте NFC Tools для записи</li>
+                </ol>
+                
+                <p style="margin-top: 20px;"><strong>Для просмотра цифровой карточки:</strong></p>
+                <ol style="padding-left: 20px; line-height: 2;">
+                    <li>Приложите NFC карточку к телефону</li>
+                    <li>Дождитесь анимации логотипа ARC</li>
+                    <li>Просмотрите контакты и соцсети</li>
+                    <li>Сохраните контакт в телефон</li>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Разработано с ❤️ для <strong>NFC-VL.RU</strong></p>
+            <p style="margin-top: 10px;">Все компоненты используют современные технологии: React, Framer Motion, Three.js</p>
+        </div>
+    </div>
+</body>
+</html>
+

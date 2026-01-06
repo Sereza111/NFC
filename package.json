@@ -1,0 +1,47 @@
+{
+   "dependencies" : {
+      "@react-three/drei" : "^9.97.3",
+      "@react-three/fiber" : "^8.15.16",
+      "compression" : "^1.7.4",
+      "dotenv" : "^16.4.5",
+      "express" : "^4.19.2",
+      "flubber" : "^0.4.2",
+      "form-data" : "^4.0.4",
+      "framer-motion" : "^11.0.0",
+      "gsap" : "^3.12.5",
+      "mysql2" : "^3.11.0",
+      "qrcode" : "^1.5.3",
+      "qrcode.react" : "^3.1.0",
+      "react" : "^18.3.1",
+      "react-dom" : "^18.3.1",
+      "react-hook-form" : "^7.52.0",
+      "react-input-mask" : "^2.0.4",
+      "react-particles" : "^2.12.2",
+      "three" : "^0.160.0",
+      "tsparticles-slim" : "^2.12.0"
+   },
+   "description" : "NFC card website",
+   "devDependencies" : {
+      "@vitejs/plugin-react" : "^4.2.0",
+      "autoprefixer" : "^10.4.20",
+      "postcss" : "^8.4.41",
+      "sharp" : "^0.33.0",
+      "svgo" : "^3.0.0",
+      "tailwindcss" : "^3.4.9",
+      "terser" : "^5.36.0",
+      "vite" : "^5.4.0"
+   },
+   "keywords" : [ "nfc", "react", "vite" ],
+   "license" : "ISC",
+   "name" : "nfc-vl",
+   "private" : true,
+   "scripts" : {
+      "build" : "vite build && node scripts/copy-templates.js",
+      "dev" : "vite",
+      "optimize:svg" : "node scripts/optimize-svg-images.js && svgo -f public/templates -o public/templates --multipass && node scripts/copy-templates.js",
+      "preview" : "vite preview",
+      "start" : "node server.js"
+   },
+   "type" : "module",
+   "version" : "1.0.0"
+}

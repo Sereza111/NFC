@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест загрузки карточек</title>
+    <style>
+        body {
+            background: #000;
+            color: #0f0;
+            font-family: monospace;
+            padding: 20px;
+        }
+        .card-preview {
+            display: inline-block;
+            margin: 10px;
+            border: 2px solid #0f0;
+            padding: 10px;
+        }
+        .card-preview img {
+            max-width: 400px;
+            height: auto;
+            display: block;
+        }
+        .status {
+            margin-top: 10px;
+            padding: 5px;
+        }
+        .loading { color: yellow; }
+        .loaded { color: lime; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Проверка загрузки SVG файлов карточек</h1>
+    
+    <div class="card-preview">
+        <h3>CARD1B (передняя)</h3>
+        <img id="card1b" src="/templates/CARD1B.svg" alt="Card 1B">
+        <div id="status1b" class="status loading">Загрузка...</div>
+    </div>
+    
+    <div class="card-preview">
+        <h3>CARD1F (задняя)</h3>
+        <img id="card1f" src="/templates/CARD1F.svg" alt="Card 1F">
+        <div id="status1f" class="status loading">Загрузка...</div>
+    </div>
+    
+    <div class="card-preview">
+        <h3>CARD2F (передняя)</h3>
+        <img id="card2f" src="/templates/CARD2F.svg" alt="Card 2F">
+        <div id="status2f" class="status loading">Загрузка...</div>
+    </div>
+    
+    <div class="card-preview">
+        <h3>CARD2B (задняя)</h3>
+        <img id="card2b" src="/templates/CARD2B.svg" alt="Card 2B">
+        <div id="status2b" class="status loading">Загрузка...</div>
+    </div>
+    
+    <div class="card-preview">
+        <h3>CARD3F (передняя)</h3>
+        <img id="card3f" src="/templates/CARD3F.svg" alt="Card 3F">
+        <div id="status3f" class="status loading">Загрузка...</div>
+    </div>
+    
+    <div class="card-preview">
+        <h3>CARD3B1 (задняя)</h3>
+        <img id="card3b1" src="/templates/CARD3B1.svg" alt="Card 3B1">
+        <div id="status3b1" class="status loading">Загрузка...</div>
+    </div>
+
+    <script>
+        const cards = [
+            { img: 'card1b', status: 'status1b' },
+            { img: 'card1f', status: 'status1f' },
+            { img: 'card2f', status: 'status2f' },
+            { img: 'card2b', status: 'status2b' },
+            { img: 'card3f', status: 'status3f' },
+            { img: 'card3b1', status: 'status3b1' }
+        ];
+
+        cards.forEach(card => {
+            const img = document.getElementById(card.img);
+            const status = document.getElementById(card.status);
+            
+            img.onload = () => {
+                status.textContent = '✓ Загружено';
+                status.className = 'status loaded';
+            };
+            
+            img.onerror = () => {
+                status.textContent = '✗ Ошибка загрузки';
+                status.className = 'status error';
+            };
+        });
+    </script>
+</body>
+</html>
+
