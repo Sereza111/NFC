@@ -3,12 +3,10 @@ npm-debug.log
 .git
 .gitignore
 .env
-.env.local
 .DS_Store
 coverage
 dist
 build
-.next
 .idea
 .vscode
 *.log
