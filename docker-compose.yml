@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  nfc-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nfc-site
+    ports:
+      - "10002:10002"
+    environment:
+      - PORT=10002
+      - DB_HOST=185.225.35.229
+      - DB_PORT=3306
+      - DB_USER=zxc
+      - DB_PASSWORD=w%eJzfsAiGj3
+      - DB_NAME=nfc
+      - TELEGRAM_BOT_TOKEN=8298634817:AAGvgd7K3U3RoPz-2SQlqzck-kUVT92DitY
+      - TELEGRAM_CHAT_ID=7121428208
+      - YOKASSA_SHOP_ID=1193300
+      - YOKASSA_SECRET_KEY=live_kncdpR_fVgBHaBvULcl5HDJmb-Hf5ihnzHJwX4OTDqY
+      - SITE_URL=https://nfc-vl.ru
+      - RUSSIAN_POST_TOKEN=Jb2XiiReaTSgDUBHr1f59HosaXhFjF31
+      - RUSSIAN_POST_LOGIN=seregaboj619@gmail.com
+      - RUSSIAN_POST_PASSWORD=Sereza_Bojkenco11
+      - DADATA_API_KEY=15c5a4e1d5b23f81f87ce3a68fd19ca7dd1452e5
+    restart: unless-stopped
+    networks:
+      - nfc-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:10002"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  nfc-network:
+    driver: bridge
