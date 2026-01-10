@@ -7,8 +7,7 @@ services:
     image: ghcr.io/sereza111/nfc:latest
     container_name: nfc-site
     pull_policy: always
-    ports:
-      - "10002:10002"
+    network_mode: host
     environment:
       - NODE_ENV=production
       - PORT=10002
