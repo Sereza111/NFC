@@ -2,11 +2,11 @@ version: '3.8'
 
 services:
   nfc-app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    # Используем готовый образ из GitHub Container Registry
+    # После первого push образ будет доступен автоматически
+    image: ghcr.io/sereza111/nfc:latest
     container_name: nfc-site
-    image: nfc-site:latest
+    pull_policy: always
     ports:
       - "10002:10002"
     environment:
