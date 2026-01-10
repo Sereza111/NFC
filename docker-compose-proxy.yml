@@ -12,7 +12,7 @@ services:
     volumes:
       - caddy_data:/data
       - caddy_config:/config
-      - ./Caddyfile:/etc/caddy/Caddyfile
+    command: caddy reverse-proxy --from nfc-vl.ru --to nfc-site:10002
     networks:
       - nfc-network
 
