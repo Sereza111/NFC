@@ -35,3 +35,9 @@ services:
       start_period: 60s
     volumes:
       - ./data:/app/data
+    networks:
+      - default
+
+networks:
+  default:
+    name: nfc-site_default

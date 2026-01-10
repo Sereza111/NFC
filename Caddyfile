@@ -1,0 +1,14 @@
+nfc-vl.ru {
+    reverse_proxy nfc-site:10002
+    
+    encode gzip
+    
+    log {
+        output stdout
+    }
+}
+
+www.nfc-vl.ru {
+    redir https://nfc-vl.ru{uri} permanent
+}
+
