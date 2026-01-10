@@ -11,7 +11,7 @@ services:
     environment:
       - NODE_ENV=production
       - PORT=10002
-      - DB_HOST=10.19.0.1
+      - DB_HOST=eskopeboyed.beget.app
       - DB_PORT=3306
       - DB_USER=nfc
       - DB_PASSWORD=w%eJzfsAiGj3
