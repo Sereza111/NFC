@@ -12,9 +12,9 @@ services:
     environment:
       - NODE_ENV=production
       - PORT=10002
-      - DB_HOST=10.16.0.1
+      - DB_HOST=10.19.0.1
       - DB_PORT=3306
-      - DB_USER=zxc
+      - DB_USER=nfc
       - DB_PASSWORD=w%eJzfsAiGj3
       - DB_NAME=nfc
       - TELEGRAM_BOT_TOKEN=8298634817:AAGvgd7K3U3RoPz-2SQlqzck-kUVT92DitY
@@ -27,15 +27,11 @@ services:
       - RUSSIAN_POST_PASSWORD=Sereza_Bojkenco11
       - DADATA_API_KEY=15c5a4e1d5b23f81f87ce3a68fd19ca7dd1452e5
     restart: unless-stopped
-    networks:
-      - nfc-network
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:10002"]
+      test: ["CMD", "curl", "-f", "http://localhost:10002/api/health"]
       interval: 30s
       timeout: 10s
-      retries: 3
-      start_period: 40s
-
-networks:
-  nfc-network:
-    driver: bridge
+      retries: 5
+      start_period: 60s
+    volumes:
+      - ./data:/app/data

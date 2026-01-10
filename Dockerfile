@@ -18,6 +18,9 @@ RUN npm run build --if-present || true
 # Stage 2: Runtime (меньший размер образа)
 FROM node:18-alpine
 
+# Установка curl для healthcheck
+RUN apk add --no-cache curl
+
 WORKDIR /app
 
 # Копируем только необходимое из builder
